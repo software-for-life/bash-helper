@@ -32,4 +32,4 @@
 #      Byte, Kilobyte, Megabyte, Gigabyte, Terabyte and Petabyte
 #      in order to reduce the number of digits to three or less using base 2 for sizes.
 #
-l.sh -lh
+l.sh -lh $@

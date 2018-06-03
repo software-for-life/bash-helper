@@ -27,4 +27,4 @@
 #   -h "Human-readable" output. Use unit suffixes:
 #      Byte, Kilobyte, Megabyte, Gigabyte, Terabyte and Petabyte.
 #
-du -h
+du -h $@
