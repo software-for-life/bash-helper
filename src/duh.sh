@@ -16,11 +16,11 @@
 # You should have received a copy of the GNU General Public License along with
 # 'bash-helper'. If not, see <http://www.gnu.org/licenses/>.
 
-# Name: du.sh
+# Name: duh.sh
 #
 # Synopsis:
-#   du.sh
-#   Example: du.sh
+#   duh.sh
+#   Example: duh.sh
 #
 # Description:
 #   Alias for bash command du.
