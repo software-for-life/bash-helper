@@ -31,7 +31,6 @@
 #     an equals sign (`=') after each socket,
 #     a percent sign (`%') after each whiteout,
 #     and a vertical bar (`|') after each that is a FIFO.
-#   --color[=WHEN] Colorize the output;
-#     WHEN can be 'always' (default if omitted), 'auto', or 'never'.
+#   --color=always Colorize the output.
 #
 ls -CF --color=always
