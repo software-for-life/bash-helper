@@ -29,4 +29,4 @@
 #      Force output to be one entry per line.
 #      This is the default when output is not to a terminal.
 #
-l.sh -1
+l.sh -1 $@

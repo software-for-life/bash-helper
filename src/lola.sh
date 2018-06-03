@@ -28,4 +28,4 @@
 #   -A List all entries except for . and ..
 #      Always set for the super-user.
 #
-lol.sh -A
+lol.sh -A $@

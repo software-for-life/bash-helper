@@ -33,4 +33,4 @@
 #     and a vertical bar (`|') after each that is a FIFO.
 #   --color=always Colorize the output.
 #
-ls -CF --color=always
+ls -CF --color=always $@
