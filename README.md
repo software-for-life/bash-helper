@@ -8,7 +8,9 @@ A set of commands for common bash tasks
 ##### Description:
 
 Alias for bash command du, with parameter:
+
   -h "Human-readable" output. Use unit suffixes:
+  
      Byte, Kilobyte, Megabyte, Gigabyte, Terabyte and Petabyte.
 
 ##### Example:
@@ -24,12 +26,19 @@ user@pc:~$ duh /home/sergio/tmp/
 Alias for bash command ls, with parameters:
 
   -C Force multi-column output; this is the default when output is to a terminal.
+  
   -F Display a slash (`/') immediately after each pathname that is a directory,
+  
      an asterisk (`*') after each that is executable,
+     
      an at sign (`@') after each symbolic link,
+     
      an equals sign (`=') after each socket,
+     
      a percent sign (`%') after each whiteout,
+     
      and a vertical bar (`|') after each that is a FIFO.
+     
   --color=always Colorize the output.
 
 ##### Example:
@@ -45,8 +54,11 @@ docker-midori/      okurz_scripts/  os-autoinst/       os-autoinst-needles-openQ
 ##### Description:
 
 Alias for bash command ls, with parameter:
+
   -1 (the numeric digit _one_)
+  
     Force output to be one entry per line.
+    
     This is the default when output is not to a terminal.
 
 ##### Example:
@@ -81,10 +93,15 @@ yast-journalctl-tutorial/
 ##### Description:
 
 Alias for bash command ls, with parameters:
+
   -l (the lowercase letter _ell_)  List in long format.
+  
     If the output is to a terminal, a total sum for all the file sizes is output on a line before the long listing.
+    
   -h When used with the -l option, use unit suffixes:
+  
     Byte, Kilobyte, Megabyte, Gigabyte, Terabyte and Petabyte
+    
     in order to reduce the number of digits to three or less using base 2 for sizes.
 
 ##### Example:
@@ -108,7 +125,9 @@ drwxr-xr-x 1 sergio users   62 Jun  2 17:09 docker-helper/
 ##### Description:
 
 Alias for bash command ls, with parameters:
+
   -A List all entries except for `.` and `..`
+  
     Always set for the super-user.
 
 ##### Example:
